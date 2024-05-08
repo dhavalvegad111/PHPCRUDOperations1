@@ -1,0 +1,17 @@
+.readBtn:hover,.cancelBtn:hover{ background:#2c3746; transition: .2s linear ; -webkit-transition: .2s linear ; -moz-transition: .2s linear ; -ms-transition: .2s linear ; -o-transition: .2s linear ; }
+.createBtn:hover,.saveBtn:hover{ background:#1c4cb4; transition: .2s linear ; -webkit-transition: .2s linear ; -moz-transition: .2s linear ; -ms-transition: .2s linear ; -o-transition: .2s linear ; }
+.updateBtn:hover{ background:#146841; transition: .2s linear ; -webkit-transition: .2s linear ; -moz-transition: .2s linear ; -ms-transition: .2s linear ; -o-transition: .2s linear ; }
+.deleteBtn:hover{ background:#bb1818; transition: .2s linear ; -webkit-transition: .2s linear ; -moz-transition: .2s linear ; -ms-transition: .2s linear ; -o-transition: .2s linear ; }
+table.dataTable td.dt-type-date{text-align: left;}
+div.dt-container div.dt-search input,div.dt-container div.dt-length select{box-shadow: none;}
+
+form .form-control:focus{box-shadow: unset;}
+.absentBtn:hover,.absentBtn:focus,.absentBtn:active{
+    background-color: var(--danger);
+    color: var(--white);
+}
+
+.presentBtn:hover,.presentBtn:focus,.presentBtn:active{
+    background-color: var(--success);
+    color: var(--white);
+}
